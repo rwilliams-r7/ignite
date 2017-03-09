@@ -50,7 +50,7 @@
         <property name="includeEventTypes">
           <list>
               <util:constant static-field="org.apache.ignite.events.EventType.EVT_TASK_STARTED"/>
-              <util:constant static-field="org.apache.ignite.events.EventType.E              <util:constant static-field="org.apache.ignite.events.EventType.EVT_CACHE_OBJECT_PUT"/>VT_TASK_FINISHED"/>
+              <util:constant static-field="org.apache.ignite.events.EventType.EVT_TASK_FINISHED"/>
               <util:constant static-field="org.apache.ignite.events.EventType.EVT_TASK_FAILED"/>
           </list>
       </property>
