@@ -44,7 +44,7 @@
         http://www.springframework.org/schema/cache/spring-cache.xsd">
 	<bean id="ignite.cfg" class="org.apache.ignite.configuration.IgniteConfiguration">
 		        <!-- Enabling the peer-class loading feature. -->
-          <property name="peerClassLoadingEnabled" value="false"/>
+          <property name="peerClassLoadingEnabled" value="true"/>
 		
        <!-- Enable only some events and leave other ones disabled. -->
         <property name="includeEventTypes">
