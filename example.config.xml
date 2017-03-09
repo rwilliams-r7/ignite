@@ -72,7 +72,7 @@
                    <!-- Enable off-heap storage with unlimited size. -->
                     <property name="offHeapMaxMemory" value="0"/> 
                     <property name="swapEnabled" value="false"/> 
-		    
+		    <property name="cacheMode" value="REPLICATED" />
                 </bean>
             </list>
         </property>
