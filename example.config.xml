@@ -55,11 +55,6 @@
 		     <util:constant static-field="org.apache.ignite.events.EventType.EVT_CACHE_OBJECT_PUT"/>
           </list>
       </property>
-         <!-- Configure internal thread pool. -->
-    <property name="publicThreadPoolSize" value="64"/>
-		
-    <!-- Configure system thread pool. -->
-    <property name="systemThreadPoolSize" value="32"/>
       
         <property name="cacheConfiguration">
             <list>
